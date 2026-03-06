@@ -1,0 +1,7 @@
+{
+    "name": "perpustakaan/rifafadilah",
+    "description": "Perpustakaan Digital Project",
+    "require": {
+        "php": ">=7.4"
+    }
+}

@@ -1,0 +1,7 @@
+# Vercel Ignore
+.git
+database.sql
+xampp
+*.log
+.env
+node_modules
