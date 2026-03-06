@@ -1,0 +1,95 @@
+/* assets/css/style.css */
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #64748b;
+    --dark-color: #0f172a;
+    --light-color: #f8fafc;
+    --danger-color: #ef4444;
+    --success-color: #10b981;
+}
+
+body {
+    background-color: #f1f5f9;
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-color);
+}
+
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: var(--dark-color);
+    color: white;
+    padding-top: 2rem;
+}
+
+.sidebar .nav-link {
+    color: #94a3b8;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.stat-card {
+    transition: transform 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.table th {
+    background-color: #f8fafc;
+    font-weight: 600;
+}
+
+.badge-success { background-color: var(--success-color); }
+.badge-danger { background-color: var(--danger-color); }
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
