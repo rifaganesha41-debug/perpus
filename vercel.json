@@ -2,16 +2,13 @@
     "version": 2,
     "functions": {
         "**/*.php": {
-            "runtime": "vercel-php@0.7.0"
+            "runtime": "vercel-php@0.7.1"
         }
     },
+    "cleanUrls": true,
     "routes": [
         {
             "handle": "filesystem"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/$1"
         }
     ]
 }

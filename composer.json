@@ -1,5 +1,5 @@
 {
-    "name": "perpustakaan/rifafadilah",
+    "name": "rifa/perpustakaan",
     "description": "Perpustakaan Digital Project",
     "require": {
         "php": ">=7.4"
